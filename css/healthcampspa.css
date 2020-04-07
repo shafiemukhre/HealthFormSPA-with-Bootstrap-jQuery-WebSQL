@@ -1,0 +1,11 @@
+/**** PAGES ****/
+.page{
+    display: none;
+    width: 100%;
+    min-height: 100%; /* allow for content off the bottom of the page */
+    position: absolute;  /* fixed no scrolling or absolute if the user needs to scroll for more content */
+    padding: 1rem 2rem;
+}
+.activate{
+    display: block; 
+}
